@@ -33,12 +33,10 @@ setInterval(() => {
   changeSlide(1);
 }, 5000);
 
-// Download button handler (you'll update this with actual download link)
+// Download button handler
 document.getElementById('downloadBtn')?.addEventListener('click', (e) => {
   e.preventDefault();
-  alert('Download link will be added soon!');
-  // When ready, replace with:
-  // window.location.href = 'https://github.com/your-repo/releases/latest/download/Duelytics-Setup.exe';
+  window.location.href = 'https://github.com/BearBloom/Duelytics-Page/releases/download/v1.0.0/Duelytics.Setup.1.0.0.exe';
 });
 
 // Smooth scroll for navigation links
